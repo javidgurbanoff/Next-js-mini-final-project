@@ -15,6 +15,12 @@ const config: Config = {
       },
     },
   },
+
+  fontFamily: {
+    poppins: ['Poppins', 'sans-serif'],
+  },
   plugins: [],
+
+  
 };
 export default config;
