@@ -5,7 +5,6 @@ const Footer = () => {
   return (
     <footer className="bg-[#222222] text-white py-12 w-full h-[475px]">
       <div className="container mx-auto grid grid-cols-1 md:grid-cols-4 gap-8 px-4 md:px-12 max-w-screen-xl">
-        {/* About Us Section */}
         <div className="md:col-span-1">
           <h2 className="text-xl font-bold mb-4">About Us</h2>
           <p className="text-sm text-gray-400 leading-relaxed max-w-[220px]">
@@ -14,25 +13,24 @@ const Footer = () => {
           </p>
         </div>
 
-        {/* Newsletter Section */}
         <div className="md:col-span-1">
-          <h2 className="text-xl font-bold mb-4">Newsletter</h2>
-          <p className="text-sm text-gray-400 mb-4">
-            Stay updated with our latest
-          </p>
-          <form className="flex items-center max-w-[250px]">
-            <input
-              type="email"
-              placeholder="Enter Email"
-              className="p-2 w-full text-black bg-[#191919]  h-[36px]"
-            />
-            <button className="bg-gradient-to-r from-pink-600 to-purple-500 p-3 ml-2 w-[40px] h-[36px]">
-              <span className="text-white">→</span>
-            </button>
-          </form>
-        </div>
+  <h2 className="text-xl font-bold mb-4">Newsletter</h2>
+  <p className="text-sm text-gray-400 mb-4">
+    Stay updated with our latest
+  </p>
+  <form className="flex items-center max-w-[250px]">
+    <input
+      type="email"
+      placeholder="Enter Email"
+      className="p-2 w-full text-[#fff] bg-[#191919] h-[36px]"
+    />
+    <button className="bg-gradient-to-r from-pink-600 to-purple-500 p-3 ml-2 w-[40px] h-[36px] flex justify-center items-center">
+      <span className="text-white">→</span>
+    </button>
+  </form>
+</div>
 
-        {/* Instagram Feed Section */}
+
         <div className="md:col-span-1">
           <h2 className="text-xl font-bold mb-4">Instagram Feed</h2>
           <div className="grid grid-cols-4 gap-2">
@@ -79,28 +77,39 @@ const Footer = () => {
           </div>
         </div>
 
-        {/* Follow Us Section */}
         <div className="md:col-span-1">
-          <h2 className="text-[18px[] font-bold mb-4">Follow Us</h2>
-          <p className="text-sm text-gray-400 mb-4">Let us be social</p>
-          <div className="flex space-x-6">
-            <a href="#" className="text-gray-400 hover:bg-[#f41068]">
-              <FaFacebookF size={14} />
-            </a>
-            <a href="#" className="text-gray-400 hover:bg-[#f41068]">
-              <FaTwitter size={14} />
-            </a>
-            <a href="#" className="text-gray-400 hover:bg-[#f41068]">
-              <FaDribbble size={14} />
-            </a>
-            <a href="#" className="text-gray-400 hover:bg-[#f41068]">
-              <FaBehance size={14} />
-            </a>
-          </div>
-        </div>
+  <h2 className="text-[18px] font-bold mb-4">Follow Us</h2>
+  <p className="text-sm text-gray-400 mb-4">Let us be social</p>
+  <div className="flex space-x-6">
+    <a
+      href="#"
+      className="text-gray-400 hover:text-white hover:bg-[#f41068] p-2 rounded-full transition-colors duration-300"
+    >
+      <FaFacebookF size={14} />
+    </a>
+    <a
+      href="#"
+      className="text-gray-400 hover:text-white hover:bg-[#f41068] p-2 rounded-full transition-colors duration-300"
+    >
+      <FaTwitter size={14} />
+    </a>
+    <a
+      href="#"
+      className="text-gray-400 hover:text-white hover:bg-[#f41068] p-2 rounded-full transition-colors duration-300"
+    >
+      <FaDribbble size={14} />
+    </a>
+    <a
+      href="#"
+      className="text-gray-400 hover:text-white hover:bg-[#f41068] p-2 rounded-full transition-colors duration-300"
+    >
+      <FaBehance size={14} />
+    </a>
+  </div>
+</div>
+
       </div>
 
-      {/* Footer Bottom */}
       <div className=" mt-8 pt-4 text-center text-sm text-gray-400">
         <p>
           Copyright ©2024 All rights reserved | This template is made with{" "}

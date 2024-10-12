@@ -3,12 +3,14 @@ import Image from "next/image";
 
 const Header = () => {
   return (
-    <header className="bg-white shadow-md w-full h-auto" style={{ fontFamily: "Poppins, sans-serif" }}>
+    <header className="bg-white shadow-md w-full h-auto sticky top-0" style={{ fontFamily: "Poppins, sans-serif" }}>
       <div className="container mx-auto flex flex-col items-center">
         <div className="flex justify-between items-center w-full max-w-[1110px] h-[50px]">
           <div className="flex space-x-4">
             <p className="text-[12px] p-[15px] hover:bg-[#f41068] hover:text-[#fff] flex items-center font-semibold cursor-pointer	">
+              <a href="/contact">
               +12312-3-1209
+              </a>
             </p>
             <p className="text-[12px] p-[15px] hover:bg-[#f41068] hover:text-[#fff] flex items-center font-semibold cursor-pointer	">
               SUPPORT@COLORLIB.COM
@@ -16,7 +18,7 @@ const Header = () => {
           </div>
           <div className="hidden md:block pl-5 p-[15px">
             <a
-              href="#"
+              href="/login"
               className="text-[12px] p-[15px] text-[#222222] hover:bg-[#f41068] hover:text-[#fff] flex items-center font-semibold"
             >
               LOGIN
